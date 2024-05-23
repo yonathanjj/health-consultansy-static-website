@@ -21,8 +21,7 @@ To get a local copy of the project up and running, follow these steps:
 
 Clone the repository
 
-git clone https://github.com/yonathanjj/health
--consultansy-static-website.git
+git clone https://github.com/yonathanjj/health-consultansy-static-website.git
 
 Navigate to the project directory:
 

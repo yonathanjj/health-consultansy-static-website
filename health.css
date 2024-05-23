@@ -1,0 +1,231 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #333;
+    background-color: #FFFAF0; /* Off-white background */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #F9C6FA; /* Pale pink */
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end; /* Align navigation to the right */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px; /* Add margin to separate from the right edge */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+/* Main Content */
+main {
+    padding-top: 60px; /* Adjust for fixed header */
+}
+
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100vh - 60px); /* Full viewport height minus header */
+    background-color: #FFFAF0; /* Off-white background */
+    padding: 20px;
+}
+
+.welcome-text {
+    max-width: 50%;
+    text-align: center;
+    font-family: 'Harlow Solid', cursive;
+    font-style: italic;
+}
+
+.welcome-text h1 {
+    font-size: 5rem; /* Increased size for more impact */
+    color: #E759AC; /* royal pink */
+    font-weight: 700; /* Bold */
+}
+
+.welcome-text p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #333;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Image Container */
+.image-container {
+    width: 40%;
+    height: auto; /* Adjust to auto to maintain aspect ratio */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-placeholder {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* About Us Section */
+.about-section {
+    padding: 60px 20px;
+    background-color: #fff; /* White background for contrast */
+    color: #333; /* Main text color */
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    color: #E759AC; /* Pale pink heading */
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member {
+    max-width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.team-member img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.team-member h4 {
+    font-size: 1.5rem;
+    color: #E759AC; /* Pale pink text */
+    margin-top: 10px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #333;
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #333;
+    background-color: #FFFAF0; /* Off-white background */
+}
+
+header {
+    background-color: #F9C6FA; /* Pale pink */
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a.active {
+    color: #E759AC; /* Active link color */
+}
+
+nav ul li a:hover {
+    color: #E759AC; /* Hover link color */
+}
+
+.main {
+    padding-top: 60px; /* Adjust for fixed header */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #E759AC; /* Pale pink heading */
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    color: #E759AC; /* Pale pink heading */
+    margin-bottom: 10px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+.testimonial blockquote {
+    font-style: italic;
+    color: #777; /* Testimonial text color */
+}
+
+footer {
+    background-color: #F9C6FA; /* Pale pink footer background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
